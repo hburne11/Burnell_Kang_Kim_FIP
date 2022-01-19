@@ -1,0 +1,30 @@
+{
+  "name": "burnell_kang_kim_fip",
+  "version": "1.0.0",
+  "description": "IDP Winter 2022 NGO Campaign Final Integrated Project created by Hayden Burnell, Yan Kang, and Yeonju Kim",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hburne11/Burnell_Kang_Kim_FIP.git"
+  },
+  "author": "Hayden Burnell, Yan Kang, and Yeonju Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hburne11/Burnell_Kang_Kim_FIP/issues"
+  },
+  "homepage": "https://github.com/hburne11/Burnell_Kang_Kim_FIP#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
+  }
+}
