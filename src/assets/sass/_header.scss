@@ -1,31 +1,42 @@
-.menu a {
-  font-family: roboto, sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  text-decoration-line: none;
-  text-decoration: none;
-  transition: 0.4s;
-  padding: 6px 20px;
-  color: $blue-main-color;
-}
-
 .menu {
-  text-align: right;
-  width: 50rem;
-  display: none;
-  justify-content: space-between;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  padding-top: 150px;
+  display: block;
+  z-index: -1;
   transition: 0.5s;
+  background-color: #e2f0da;
 }
-
-.menu span:nth-child(5) {
-  background-color: aqua;
+.menu.is-active {
+  left: 0;
 }
-
-.menu a.is-active,
-.menu a:hover {
+.menu-wide {
+  display: none;
+}
+.menu a {
+  text-decoration: none;
+  margin: 0 0 25px 35px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 5px;
+  border-bottom: 1.3px solid $blue-main-color;
+  font-size: 20px;
+  color: $blue-main-color;
   font-weight: bold;
 }
 
+.menu button {
+  font-size: 20px;
+  width: 180px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 30px;
+}
 #nav img {
   width: 150px;
 }
@@ -79,7 +90,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background-color: wheat;
+  background-color: $blue-main-color;
   border-radius: 6px;
   z-index: 1;
   transform-origin: 0 0;
@@ -109,10 +120,40 @@
 }
 
 @media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
   .hamburger {
     display: none;
   }
-  .menu {
+  .menu-wide {
+    padding: 0;
+    height: auto;
+    position: relative;
+    text-align: right;
+    width: 50rem;
     display: block;
+
+    justify-content: space-between;
+    transition: 0.5s;
+    background: none;
+  }
+  .menu-wide a {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration-line: none;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 6px 20px;
+    color: $blue-main-color;
+  }
+
+  .menu-wide a.is-active,
+  .menu-wide a:hover {
+    font-weight: bold;
+  }
+  .menu-wide span:nth-child(5) {
+    background-color: aqua;
   }
 }
