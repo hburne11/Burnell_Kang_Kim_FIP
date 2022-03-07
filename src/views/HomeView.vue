@@ -17,25 +17,17 @@
           who opposes the war <br />can participate.
         </h1>
         <h1 class="home_title_mobile">
-          EVERYONE <br />WHO OPPOSES THE WAR<br />
+          EVERYONE WHO OPPOSES THE WAR<br />
           CAN PARTICIPATE.<br />
         </h1>
         <div class="main_btn">
-          <router-link to="/CampaignView" class="button"> Join </router-link>
+          <router-link to="/CampaignView" class="button"> Join Us </router-link>
           <router-link to="/CampaignView" class="button_outline">
-            View all
+            About Us
           </router-link>
         </div>
       </div>
-      <!-- 
-      <div class="cameraFunc ball">
-        <img src="@/assets/images/camera.png" />
-      </div> -->
-      <!-- <h2 class="camera_text_mobile">
-        Click the camera button,<br />
-        your HeroRat will find the landmine <br />
-        from your garden!
-      </h2> -->
+
       <h2 class="home_subtitle">
         Post your charity using the hashtag <br /><b>#ApopoSavesLives</b> and
         tag us
@@ -63,11 +55,19 @@
       </div> -->
 
       <router-link to="/DonationView">
-        <div class="donation_link">
-          <p>
-            Support our hero animals and<br />
-            people suffering from the war.
-          </p>
+        <div class="dona-wrapper">
+          <div class="donation_link">
+            <span
+              class="hovertext"
+              data-hover="Support our hero animals and
+            people suffering from the war."
+            >
+              <p>
+                DONATE<br />
+                NOW
+              </p>
+            </span>
+          </div>
         </div></router-link
       >
     </section>
