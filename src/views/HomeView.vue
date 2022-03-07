@@ -17,8 +17,7 @@
           who opposes the war <br />can participate.
         </h1>
         <h1 class="home_title_mobile">
-          EVERYONE WHO OPPOSES THE WAR<br />
-          CAN PARTICIPATE.<br />
+          EVERYONE WHO OPPOSES THE WAR <br />CAN PARTICIPATE.
         </h1>
         <div class="main_btn">
           <router-link to="/CampaignView" class="button"> Join Us </router-link>
