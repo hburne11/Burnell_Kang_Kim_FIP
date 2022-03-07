@@ -1,0 +1,42 @@
+// primary setting css
+
+$main-background-color: #fafbf2;
+$blue-main-color: #1a4e77;
+$orange-main-color: #f08900;
+$orange-main-color-hover: #f08000;
+$green-main-color: #b8d9c0;
+$brown-main-color: #bfa65a;
+
+$title-font: "Luckiest Guy", cursive;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+.router {
+  padding-top: 100px;
+}
+
+#container {
+  background-color: $main-background-color;
+}
+
+#app {
+  background-color: $main-background-color;
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+@media (min-width: 768px) {
+  #app {
+    height: 100vh;
+    background-color: $main-background-color;
+  }
+}
