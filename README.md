@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/7WSkP4T/campaign-logo.png" width="300px">
 
 
-## APOPO CHARITY 5K run
+## APOPO CHARITY 5K RUN
 
 In this app, we create Charity Run Campaign for [APOPO](https://www.apopo.org/en) to call for supporting of their hero animals or people suffering from the war. <br>Users can engage in the campaign through our website application.
 
