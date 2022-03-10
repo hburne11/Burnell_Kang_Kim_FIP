@@ -1,16 +1,13 @@
-## APOPO summer campaign
 
-In this app, we create a summer campaign for [APOPO](https://www.apopo.org/en) to call for attention of their hero animals with demining work. Users can engage in the campaign through our website application.
+<img src="https://i.ibb.co/7WSkP4T/campaign-logo.png" width="300px">
+
+
+## APOPO CHARITY 5K run
+
+In this app, we create Charity Run Campaign for [APOPO](https://www.apopo.org/en) to call for supporting of their hero animals or people suffering from the war. <br>Users can engage in the campaign through our website application.
 
 This is an IDP Winter 2022 NGO Campaign Final Integrated Project created by Hayden Burnell, Yan Kang, and Yeonju Kim
 
-## Prerequisites
-
-Need a browser and a local server to open index.html.
-
-## Usage
-
-download WAMP/MAMP/LAMP depend on your system, dowonload this project or `git clone` to your server directory, run localhost, open browser and go to localhost/Burnell_Kang_Kim_FIP/views. Then you should see the web page.
 
 ## Roles
 
