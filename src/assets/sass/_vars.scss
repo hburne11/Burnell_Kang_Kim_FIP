@@ -8,6 +8,7 @@ $green-main-color: #b8d9c0;
 $brown-main-color: #bfa65a;
 
 $title-font: "Luckiest Guy", cursive;
+$body-font: "roboto, sans-serif";
 
 *,
 *::before,
@@ -32,6 +33,7 @@ $title-font: "Luckiest Guy", cursive;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 32px;
+  font-family: $body-font;
 }
 
 @media (min-width: 768px) {
