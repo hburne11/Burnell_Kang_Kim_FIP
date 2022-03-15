@@ -38,7 +38,7 @@
   margin-left: 30px;
 }
 #nav img {
-  width: 150px;
+  width: 120px;
 }
 #nav {
   max-width: 1280px;
@@ -86,9 +86,9 @@
 
 .hamburger span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 27px;
+  height: 3px;
+  margin-bottom: 4px;
   position: relative;
   background-color: $blue-main-color;
   border-radius: 6px;
@@ -120,6 +120,9 @@
 }
 
 @media (min-width: 768px) {
+  #nav img {
+    width: 150px;
+  }
   .menu {
     display: none;
   }

@@ -1,0 +1,44 @@
+.campaign {
+  h1 {
+    font-family: $title-font;
+    font-size: 28px;
+    color: $blue-main-color;
+    text-decoration: uppercase;
+    padding-bottom: 22px;
+  }
+  h6 {
+    font-family: $body-font;
+    line-height: 0.8rem;
+    font-size: 11px;
+    color: $blue-main-color;
+    padding-bottom: 8px;
+  }
+  p {
+    font-size: 12px;
+    font-family: $body-font;
+    line-height: 1rem;
+    color: $blue-main-color;
+    padding-bottom: 18px;
+  }
+  height: auto !important;
+  background-color: $main-background-color;
+  padding: 0;
+  margin: 0;
+}
+
+.startBtn .button {
+  width: 146px;
+  height: 50px;
+  margin-bottom: 44px;
+}
+
+.mapImage {
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+  margin-bottom: 12px;
+}
+
+.imageTwo {
+  padding-top: 15px;
+}
