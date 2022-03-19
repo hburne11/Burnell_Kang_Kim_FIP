@@ -1,5 +1,5 @@
 .home_rat {
-  width: 600px;
+  width: 500px;
   display: none;
 }
 
@@ -187,12 +187,6 @@
   }
 }
 
-.camera_text_mobile {
-  font-size: 14px;
-  text-align: center;
-  color: $blue-main-color;
-}
-
 @media (min-width: 800px) {
   .homeSection {
     margin-top: 50px;
@@ -210,8 +204,9 @@
   }
 
   .home_rat {
+    z-index: 10;
     display: block;
-    width: 600px;
+    width: 530px;
   }
 
   .home_social img {

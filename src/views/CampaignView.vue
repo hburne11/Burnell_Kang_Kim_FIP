@@ -28,8 +28,13 @@
         <p>
           All fundraising will be used as a resource to maintain peace and
           integration around the world, and will also be used to help restore
-          the current invasion of Ukraine.
+          the current invasion of Ukraine &#127482;&#127462;.
         </p>
+      </div>
+      <div class="btn-wide">
+        <router-link to="/RunningView" class="button-wide">
+          Get started
+        </router-link>
       </div>
     </section>
   </main>

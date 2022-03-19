@@ -1,6 +1,7 @@
 // primary setting css
 
-$main-background-color: #fafbf2;
+$main-background-color: #faffd6;
+$main-background-hover: #faffd65d;
 $blue-main-color: #1a4e77;
 $orange-main-color: #f08900;
 $orange-main-color-hover: #f08000;
@@ -20,7 +21,16 @@ $body-font: "roboto, sans-serif";
 }
 
 .router {
+  height: 100vh;
   padding-top: 100px;
+  overflow: scroll;
+}
+
+.main {
+  padding: 0 32px;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 #container {
@@ -32,12 +42,12 @@ $body-font: "roboto, sans-serif";
   height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 32px;
   font-family: $body-font;
 }
 
 @media (min-width: 768px) {
   #app {
+    overflow: scroll;
     height: 100vh;
     background-color: $main-background-color;
   }

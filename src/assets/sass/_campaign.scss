@@ -42,3 +42,19 @@
 .imageTwo {
   padding-top: 15px;
 }
+
+.btn-wide {
+  display: flex;
+  text-align: center;
+  margin-bottom: 44px;
+  margin-top: 20px;
+}
+
+.btn-wide .button-wide {
+  font-size: 14px;
+  width: 100%;
+  background-color: $orange-main-color;
+  padding: 16px 25px;
+  border-radius: 50px;
+  color: $main-background-color;
+}
