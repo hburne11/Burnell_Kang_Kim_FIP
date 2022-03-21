@@ -1,7 +1,7 @@
 <template>
   <div id="container">
-    <div id="app">
-      <header>
+    <header>
+      <div class="nav-wrapper">
         <nav id="nav">
           <router-link to="/">
             <img src="@/assets/images/logo.png" />
@@ -27,25 +27,29 @@
             <span></span>
           </button>
         </nav>
-      </header>
+      </div>
+    </header>
+    <div id="app">
       <div class="router">
         <router-view></router-view>
-        <footer v-if="$route.name !== 'HomeView'" class="footer">
-          <div class="footer-warraper">
-            <h3>Get in touch</h3>
-            <p>
-              To find out more about any of our activities, please email
-              herorats@apopo.org
-            </p>
-            <h3>Sign up to our newsletter</h3>
-          </div>
-          <div class="newsBtn">
-            <router-link to="/"> Sign up </router-link>
-          </div>
-          <p class="copy">© Apopo. All rights reserved.</p>
-        </footer>
       </div>
     </div>
+    <footer v-if="$route.name !== 'HomeView'" class="footer">
+      <div class="footer-width">
+        <div class="footer-warraper">
+          <h3>Get in touch</h3>
+          <p>
+            To find out more about any of our activities, please email
+            herorats@apopo.org
+          </p>
+          <h3>Sign up to our newsletter</h3>
+        </div>
+        <div class="newsBtn">
+          <router-link to="/"> Sign up </router-link>
+        </div>
+        <p class="copy">© Apopo. All rights reserved.</p>
+      </div>
+    </footer>
   </div>
 </template>
 

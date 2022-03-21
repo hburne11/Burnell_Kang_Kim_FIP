@@ -40,20 +40,25 @@
 #nav img {
   width: 120px;
 }
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: $main-background-color;
+  border-bottom: 0.6px solid $orange-main-color;
+  width: 100%;
+}
+
 #nav {
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-#nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  padding: 30px 32px;
+  padding: 30px 32px 15px 30px;
 }
 
 .donationBtn {
@@ -119,7 +124,13 @@
   background-color: $orange-main-color;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 863px) {
+  .nav-wrapper {
+    width: 100%;
+  }
+  #nav {
+    width: 100%;
+  }
   #nav img {
     width: 150px;
   }
