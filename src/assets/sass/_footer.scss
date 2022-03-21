@@ -2,10 +2,15 @@
   width: 100%;
   background-color: $blue-main-color;
   height: auto;
-  padding: 50px 30px;
-}
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 32px;
+  display: flex;
+  justify-content: center;
 
-.footer {
+  .footer-warraper {
+    padding: 0;
+  }
   h3 {
     font-size: 15px;
     color: $main-background-color;
@@ -40,5 +45,11 @@
     color: $main-background-hover;
     padding-top: 55px;
     padding-bottom: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .footer-width {
+    padding: 32px;
+    width: 1280px;
   }
 }

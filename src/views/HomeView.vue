@@ -11,7 +11,7 @@
 
       <div class="home_data">
         <h6><b>#APOPOSAVESLIVES #SUPPORTAPOPO</b></h6>
-        <h1 class="home_title_2">CHARITY 5K run</h1>
+        <h1 class="home_title_2">Charity 5K run</h1>
         <h1 class="home_title">
           Everyone<br />
           who opposes the war <br />can participate.
@@ -20,11 +20,31 @@
           EVERYONE WHO OPPOSES THE WAR <br />CAN PARTICIPATE.
         </h1>
         <div class="main_btn">
-          <router-link to="/CampaignView" class="button"> Join Us </router-link>
-          <router-link to="/CampaignView" class="button_outline">
-            About Us
-          </router-link>
+          <div class="button">
+            <router-link to="/CampaignView"> Join us </router-link>
+          </div>
+          <div class="button-done">
+            <router-link to="/DonationView"> Donate now </router-link>
+          </div>
+
+          <!-- <div class="button_outline">
+            <router-link to="/CampaignView"> About Us </router-link>
+          </div> -->
         </div>
+
+        <!-- <router-link to="/DonationView">
+          <div class="dona-wrapper">
+            <div class="donation_link">
+              <span
+                class="hovertext"
+                data-hover="Support our hero animals and
+            people suffering from the war."
+              >
+                <p>DONATE NOW</p>
+              </span>
+            </div>
+          </div></router-link
+        > -->
       </div>
 
       <h2 class="home_subtitle">
@@ -49,26 +69,6 @@
           ><img src="https://img.icons8.com/color/38/000000/twitter--v1.png" />
         </a>
       </div>
-      <!-- <div class="main_btn">
-        <router-link to="/CampaignView" class="donaBtn"> Donate </router-link>
-      </div> -->
-
-      <router-link to="/DonationView">
-        <div class="dona-wrapper">
-          <div class="donation_link">
-            <span
-              class="hovertext"
-              data-hover="Support our hero animals and
-            people suffering from the war."
-            >
-              <p>
-                DONATE<br />
-                NOW
-              </p>
-            </span>
-          </div>
-        </div></router-link
-      >
     </section>
   </main>
 </template>

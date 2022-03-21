@@ -1,28 +1,68 @@
+video.fullscreen {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover; // this is the key
+  width: 100%;
+  height: auto;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+
+  &::-webkit-media-controls {
+    display: none !important;
+  }
+}
+.video-wrapper {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background: #ccc;
+  z-index: 0;
+}
+
 .campaign {
+  .textCon {
+    padding-top: 30px;
+    .span {
+      margin-bottom: 8px;
+    }
+  }
+
+  span {
+    font-size: 10px;
+    background-color: #e1e4cfcc;
+    border-radius: 100px;
+    padding: 8px;
+    line-height: 2.8;
+    margin-right: 10px;
+    color: rgb(54, 54, 54);
+  }
+  height: auto;
   h1 {
     font-family: $title-font;
     font-size: 28px;
     color: $blue-main-color;
     text-decoration: uppercase;
-    padding-bottom: 22px;
+    margin-bottom: 16px;
   }
   h6 {
     font-family: $body-font;
     line-height: 0.8rem;
     font-size: 11px;
     color: $blue-main-color;
-    padding-bottom: 8px;
   }
   p {
     font-size: 12px;
     font-family: $body-font;
     line-height: 1rem;
     color: $blue-main-color;
-    padding-bottom: 18px;
+    padding-bottom: 14px;
   }
-  height: auto !important;
 
-  padding: 0;
+  padding: 100px 0 20px 0;
   margin: 0;
 }
 
@@ -37,6 +77,10 @@
   height: 200px;
   background-color: gray;
   margin-bottom: 12px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageTwo {
@@ -57,4 +101,151 @@
   padding: 16px 25px;
   border-radius: 50px;
   color: $main-background-color;
+}
+
+.map-warraper {
+  margin-top: 40px;
+}
+.message {
+  width: 100%;
+  height: 120px;
+  position: relative;
+  margin-bottom: 48px;
+  margin-top: 40px;
+
+  h5 {
+    width: 100%;
+    top: 40%;
+    left: 28%;
+    transform: translate(-28%, -20%);
+    background-color: $green-main-color;
+    padding: 22px 28px;
+    position: absolute;
+    border-radius: 10px;
+    color: #51745a;
+    line-height: 1.2;
+    font-size: 11px;
+    text-align: center;
+  }
+}
+.minirat {
+  position: absolute;
+}
+.minirat img {
+  position: absolute;
+  z-index: 9;
+  bottom: 10;
+  width: 50px;
+  left: 00;
+  transform: translate(0%, -10%);
+}
+@media (min-width: 800px) {
+  video.fullscreen {
+    position: absolute;
+
+    z-index: 0;
+    object-fit: cover; // this is the key
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &::-webkit-media-controls {
+      display: none !important;
+    }
+  }
+  .video-wrapper {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    background: #ccc;
+    z-index: 0;
+  }
+  .campaign {
+    padding-top: 30px;
+    .span {
+      margin-top: 40px;
+    }
+    h1 {
+      margin-top: 3px;
+      font-size: 55px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 15px;
+
+      width: 400px;
+      line-height: 1.2;
+    }
+
+    .button {
+      height: 50px;
+    }
+    .mapImage {
+      width: 500px;
+      height: 400px;
+      background-color: gray;
+      margin-bottom: 12px;
+      border-radius: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .imageOne,
+    .imageTwo {
+      p {
+        width: 400px;
+      }
+      display: flex;
+    }
+    .map-warraper {
+      margin-top: 80px;
+      width: 83%;
+      h4 {
+        margin-top: 50px;
+        font-size: 20px;
+        width: 80%;
+        color: $blue-main-color;
+      }
+    }
+    .imageOne {
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    .btn-wide {
+      margin: 30px 0 60px 0;
+      width: 16%;
+      .button-wide {
+        margin-top: 20px;
+      }
+    }
+  }
+  .minirat img {
+    width: 95px;
+  }
+
+  .message {
+    margin-top: 80px;
+    width: 45%;
+    height: 120px;
+    position: relative;
+
+    h5 {
+      text-align: left;
+      top: 90%;
+      left: 0;
+      transform: translate(0, -50%);
+      background-color: $green-main-color;
+      padding: 22px 28px 22px 28px;
+      position: absolute;
+      border-radius: 10px;
+      color: #51745a;
+      line-height: 1.2;
+      font-size: 14px;
+    }
+  }
 }

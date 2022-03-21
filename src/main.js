@@ -29,3 +29,7 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("is-active");
   menu.classList.toggle("is-active");
 });
+menu.addEventListener("click", function () {
+  hamburger.classList.toggle("is-active");
+  menu.classList.toggle("is-active");
+});

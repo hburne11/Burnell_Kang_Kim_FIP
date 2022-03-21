@@ -20,13 +20,17 @@ $body-font: "roboto, sans-serif";
   font-family: roboto, sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .router {
-  height: 100vh;
-  padding-top: 100px;
-  overflow: scroll;
+  padding-top: 97px;
+  height: auto;
 }
 
 .main {
+  position: relative;
   padding: 0 32px;
 }
 ::-webkit-scrollbar {
@@ -37,18 +41,24 @@ $body-font: "roboto, sans-serif";
   background-color: $main-background-color;
 }
 
+.blur {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 #app {
   background-color: $main-background-color;
-  height: 100vh;
+
   max-width: 1280px;
   margin: 0 auto;
   font-family: $body-font;
 }
 
 @media (min-width: 768px) {
+  .hidden {
+    display: block;
+  }
   #app {
-    overflow: scroll;
-    height: 100vh;
     background-color: $main-background-color;
   }
 }
