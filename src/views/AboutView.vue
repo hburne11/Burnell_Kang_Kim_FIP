@@ -1,10 +1,65 @@
 <template>
-  <div class="About">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="main">
+    <div class="about">
+      <h1>ABOUT US</h1>
+      <div class="about-menu">
+        <div class="container">
+          <ul class="tab-container">
+            <li class="tab-container__item active" data-tab="tab1">
+              <a class="tab-container__item--title" href="#">Tab1</a>
+            </li>
+            <li class="tab-container__item" data-tab="tab2">
+              <a class="tab-container__item--title" href="#">Tab2</a>
+            </li>
+            <li class="tab-container__item" data-tab="tab3">
+              <a class="tab-container__item--title" href="#">Tab3</a>
+            </li>
+            <li class="tab-container__item" data-tab="tab4">
+              <a class="tab-container__item--title" href="#">Tab4</a>
+            </li>
+          </ul>
+          <section class="content-container">
+            <article id="tab1" class="content-container__content target">
+              <h1>Tab1</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, pariatur?
+              </p>
+            </article>
+            <article id="tab2" class="content-container__content">
+              <h1>Tab2</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facere, culpa!
+              </p>
+            </article>
+            <article id="tab3" class="content-container__content">
+              <h1>Tab3</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facere, culpa!
+              </p>
+            </article>
+            <article id="tab4" class="content-container__content">
+              <h1>Tab4</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facere, culpa!
+              </p>
+            </article>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
 </template>
+
 <script>
 export default {
   name: "aboutView",
 };
 </script>
+
+<style lang="sass">
+@import "@/assets/sass/_about.scss";
+</style>
