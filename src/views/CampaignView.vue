@@ -15,7 +15,7 @@
     </div>
     <section class="campaign">
       <div class="textCon">
-        <div class="span">
+        <div class="span" style="margin: 30px 0 10px 0">
           <span>#APOPO 2020</span>
           <span>#FROMZEROTOHERO</span>
         </div>

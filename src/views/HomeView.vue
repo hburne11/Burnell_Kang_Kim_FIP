@@ -10,7 +10,10 @@
       </div>
 
       <div class="home_data">
-        <h6><b>#APOPOSAVESLIVES #SUPPORTAPOPO</b></h6>
+        <div class="span" style="margin-bottom: 10px">
+          <span>#APOPO 2020</span>
+          <span>#FROMZEROTOHERO</span>
+        </div>
         <h1 class="home_title_2">Charity 5K run</h1>
         <h1 class="home_title">
           Everyone<br />
