@@ -1,12 +1,12 @@
+.main-campaign {
+  position: relative;
+  background-color: $main-background-color;
+}
+
 video.fullscreen {
-  position: absolute;
-  z-index: 0;
   object-fit: cover; // this is the key
   width: 100%;
-  height: auto;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  height: 100%;
 
   &::-webkit-media-controls {
     display: none !important;
@@ -19,13 +19,12 @@ video.fullscreen {
   height: auto;
   width: 100%;
   margin: 0;
-  background: #ccc;
-  z-index: 0;
 }
 
 .campaign {
+  max-width: 1280px;
+  background-color: $main-background-color;
   .textCon {
-    padding-top: 30px;
     .span {
       margin-bottom: 8px;
     }
@@ -61,9 +60,8 @@ video.fullscreen {
     color: $blue-main-color;
     padding-bottom: 14px;
   }
-
-  padding: 100px 0 20px 0;
-  margin: 0;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .startBtn .button {
@@ -74,7 +72,8 @@ video.fullscreen {
 
 .mapImage {
   width: 100%;
-  height: 200px;
+  max-width: 360px;
+  height: 360px;
   background-color: gray;
   margin-bottom: 12px;
   border-radius: 18px;
@@ -90,7 +89,7 @@ video.fullscreen {
 .btn-wide {
   display: flex;
   text-align: center;
-  margin-bottom: 44px;
+  padding-bottom: 44px;
   margin-top: 20px;
 }
 
@@ -141,15 +140,10 @@ video.fullscreen {
 }
 @media (min-width: 800px) {
   video.fullscreen {
-    position: absolute;
-
-    z-index: 0;
+    z-index: 9999;
     object-fit: cover; // this is the key
     width: 100%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: auto;
 
     &::-webkit-media-controls {
       display: none !important;
@@ -159,22 +153,24 @@ video.fullscreen {
     position: relative;
     display: grid;
     place-items: center;
-    height: 70vh;
+
     width: 100%;
     margin: 0;
     background: #ccc;
-    z-index: 0;
   }
   .campaign {
-    padding-top: 30px;
+    padding-top: 50px;
+
     .span {
       margin-top: 40px;
     }
+
     h1 {
       margin-top: 3px;
       font-size: 55px;
       margin-bottom: 20px;
     }
+
     p {
       font-size: 15px;
 
@@ -185,6 +181,7 @@ video.fullscreen {
     .button {
       height: 50px;
     }
+
     .mapImage {
       width: 500px;
       height: 400px;
@@ -195,16 +192,20 @@ video.fullscreen {
       justify-content: center;
       align-items: center;
     }
+
     .imageOne,
     .imageTwo {
       p {
-        width: 400px;
+        width: 800px;
+        padding: 40px;
       }
       display: flex;
+      justify-content: space-around;
     }
+
     .map-warraper {
       margin-top: 80px;
-      width: 83%;
+
       h4 {
         margin-top: 50px;
         font-size: 20px;
@@ -212,18 +213,21 @@ video.fullscreen {
         color: $blue-main-color;
       }
     }
+
     .imageOne {
       justify-content: space-between;
       margin-top: 30px;
     }
+
     .btn-wide {
-      margin: 30px 0 60px 0;
+      margin: 30px 0 0 0;
       width: 16%;
       .button-wide {
-        margin-top: 20px;
+        margin-top: 30px;
       }
     }
   }
+
   .minirat img {
     width: 95px;
   }

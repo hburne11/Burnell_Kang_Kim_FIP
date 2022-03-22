@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main class="main-campaign">
     <div class="video-wrapper">
       <div class="video">
         <video

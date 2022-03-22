@@ -25,13 +25,12 @@ $body-font: "roboto, sans-serif";
 }
 
 .router {
-  padding-top: 97px;
-  height: auto;
+  height: calc(100vh - 74px);
+  margin-top: 74px;
 }
 
 .main {
   position: relative;
-  padding: 0 32px;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -48,8 +47,6 @@ $body-font: "roboto, sans-serif";
 
 #app {
   background-color: $main-background-color;
-
-  max-width: 1280px;
   margin: 0 auto;
   font-family: $body-font;
 }

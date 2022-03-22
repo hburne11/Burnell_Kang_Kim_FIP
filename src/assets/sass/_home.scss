@@ -8,6 +8,9 @@
 }
 
 .homeSection {
+  padding: 30px 20px 0 20px;
+  margin: 0 auto;
+  max-width: 1280px;
   display: block;
 }
 
@@ -52,7 +55,7 @@
     font-size: 10px;
     color: $blue-main-color;
   }
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: center;
   display: display;
   justify-content: center;
@@ -198,7 +201,8 @@
   .home_rat {
     z-index: 10;
     display: block;
-    width: 530px;
+    width: 570px;
+    margin-top: 30px;
   }
 
   .home_social img {
@@ -342,6 +346,10 @@
   //   top: 50%;
   //   transform: translateY(-50%);
   // }
+
+  .social-wrapper {
+    margin-top: 100px;
+  }
 
   .hovertext:before {
     content: attr(data-hover);

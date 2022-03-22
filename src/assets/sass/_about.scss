@@ -1,14 +1,21 @@
+.main-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-background-color;
+}
+
 .about {
-  margin-top: 33px;
+  padding: 60px 20px 60px 20px;
   .about-menu ul {
     display: flex;
-    height: 500pxs;
   }
+
   h1 {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: $blue-main-color;
     padding-bottom: 18px;
@@ -24,7 +31,7 @@
     padding: 10px 0 40px 0;
     color: $blue-main-color;
     line-height: 1.2;
-    width: 97%;
+    width: 100%;
   }
   ul {
     margin: 0;
@@ -88,9 +95,7 @@
     width: 100%;
     padding: 36px 0;
   }
-  .content-container-content {
-    display: none;
-  }
+
   .content-container-content.target {
     display: block;
   }
@@ -98,6 +103,21 @@
   .tab-image img {
     width: 100%;
   }
+  .gallery-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange-main-color;
+    padding: 13px;
+    border-radius: 50px;
+  }
+  .gallery-button a {
+    color: $main-background-color !important;
+  }
+}
+
+.rats-image {
+  width: 30%;
 }
 
 @media (min-width: 800px) {
@@ -141,5 +161,13 @@
 
     padding: 40px;
     width: 500px;
+  }
+
+  .tab-container-item a {
+    font-size: 15px !important;
+  }
+  .gallery-button {
+    margin: 0 auto;
+    width: 200px;
   }
 }
