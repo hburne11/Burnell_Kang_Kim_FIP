@@ -6,7 +6,7 @@
 }
 
 .about {
-  padding: 60px 20px 60px 20px;
+  padding: 60px 20px;
   .about-menu ul {
     display: flex;
   }
@@ -47,7 +47,7 @@
       color: $green-main-color !important;
     }
     background-color: $blue-main-color;
-    padding: 10px;
+    padding: 10px 0;
 
     h5 {
       color: #edf2c2 !important;
@@ -61,6 +61,10 @@
       margin-top: 12px;
       color: $green-main-color;
     }
+  }
+
+  .tab3-padding {
+    padding: 30px;
   }
 
   .tab-last {
@@ -178,8 +182,7 @@
 
   .tab-image {
     width: 700px;
-    padding-left: 50px;
-    padding-right: 10px;
+
     overflow: hidden;
   }
   .tab-image img {

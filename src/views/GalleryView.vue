@@ -1,13 +1,15 @@
 <template>
-  <main class="main">
-    <div class="gallery-wrapper"><h1>gallery</h1></div>
-    <div class="image-wrapper">
-      <img
-        class="rats-image"
-        v-for="photo in photos"
-        :key="photo.id"
-        :src="photo.url"
-      />
+  <main class="main-gallery">
+    <div class="gallery-wrapper">
+      <h1>ABOUT US</h1>
+      <div class="image-wrapper">
+        <img
+          class="rats-image"
+          v-for="photo in photos"
+          :key="photo.id"
+          :src="photo.url"
+        />
+      </div>
     </div>
   </main>
 </template>
@@ -37,6 +39,10 @@ export default {
         },
         {
           id: 5,
+          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
+        },
+        {
+          id: 6,
           url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
         },
       ],

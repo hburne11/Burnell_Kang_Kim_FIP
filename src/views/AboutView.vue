@@ -154,36 +154,38 @@
                   <img src="@/assets/images/image_6.jpeg" alt="" />
                 </div>
                 <div class="tabText tab-3">
-                  <h5>OUR MISSION</h5>
-                  <h6>QUALITY</h6>
-                  <p>
-                    Demonstrating and promoting high standards in research,
-                    design, training and implementation of scent detection
-                    animals’ technology.
-                  </p>
-                  <h6>INNOVATION</h6>
-                  <p>
-                    Pioneering creative research and innovative solutions within
-                    a participatory learning culture.
-                  </p>
-                  <h6>SOCIAL TRANSFORMATION</h6>
-                  <p>
-                    Developing skills, creating jobs, improving socio-economic
-                    and environmental conditions, releasing land for
-                    development, and combating public health issues.
-                  </p>
-                  <h6>DIVERSITY</h6>
-                  <p>
-                    Embracing diversity in all facets of the organization with
-                    respect to age, gender, religion, sexual orientation,
-                    physical abilities, nationality or ethnicity.
-                  </p>
-                  <h6>SOLIDARITY</h6>
-                  <p>
-                    APOPO commits itself to the common good and shares
-                    responsibility toward the protection of the people,
-                    communities and the planet.
-                  </p>
+                  <div class="tab3-padding">
+                    <h5>OUR MISSION</h5>
+                    <h6>QUALITY</h6>
+                    <p>
+                      Demonstrating and promoting high standards in research,
+                      design, training and implementation of scent detection
+                      animals’ technology.
+                    </p>
+                    <h6>INNOVATION</h6>
+                    <p>
+                      Pioneering creative research and innovative solutions
+                      within a participatory learning culture.
+                    </p>
+                    <h6>SOCIAL TRANSFORMATION</h6>
+                    <p>
+                      Developing skills, creating jobs, improving socio-economic
+                      and environmental conditions, releasing land for
+                      development, and combating public health issues.
+                    </p>
+                    <h6>DIVERSITY</h6>
+                    <p>
+                      Embracing diversity in all facets of the organization with
+                      respect to age, gender, religion, sexual orientation,
+                      physical abilities, nationality or ethnicity.
+                    </p>
+                    <h6>SOLIDARITY</h6>
+                    <p>
+                      APOPO commits itself to the common good and shares
+                      responsibility toward the protection of the people,
+                      communities and the planet.
+                    </p>
+                  </div>
                 </div>
               </div>
 
