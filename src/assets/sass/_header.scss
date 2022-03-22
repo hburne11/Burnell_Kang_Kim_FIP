@@ -70,12 +70,12 @@
   border: none;
   border-radius: 50px;
   margin-left: 20px;
+  transition: 0.6s;
 }
 
-.donationBtn:hover,
-.donationBtn.is-active {
+.donationBtn:hover {
   background-color: #af964a;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .hamburger {
@@ -165,8 +165,17 @@
     color: $blue-main-color;
   }
 
-  .donationBtn {
+  .donationBtn a {
+    color: $main-background-color;
+  }
+
+  .donationBtn a:hover {
+    color: $main-background-color;
+  }
+
+  .menu-wide .donationBtn {
     height: 45px;
+    width: 130px;
   }
 
   .menu-wide a:hover {

@@ -52,8 +52,7 @@
 
       <div class="social-wrapper">
         <h2 class="home_subtitle">
-          Post your charity using the hashtag <br /><b>#ApopoSavesLives</b> and
-          tag us
+          Post your charity using the hashtag <br />#ApopoSavesLives and tag us
           <b>@APOPO</b>
         </h2>
 
