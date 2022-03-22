@@ -26,13 +26,52 @@
     font-size: 15px;
     color: $blue-main-color;
   }
-  p {
+  .tab-2 {
+    h5 {
+      margin-bottom: 10px;
+    }
+  }
+  .tabText p {
     font-size: 12px;
     padding: 10px 0 40px 0;
     color: $blue-main-color;
     line-height: 1.2;
     width: 100%;
   }
+
+  .tab-3 {
+    margin-bottom: 30px;
+    p {
+      line-height: 1.4;
+      padding: 0;
+      color: $green-main-color !important;
+    }
+    background-color: $blue-main-color;
+    padding: 10px;
+
+    h5 {
+      color: #edf2c2 !important;
+      margin-bottom: 30px;
+      font-size: 20px;
+      color: $main-background-color;
+    }
+    h6 {
+      font-weight: bold;
+      padding: 10px 0;
+      margin-top: 12px;
+      color: $green-main-color;
+    }
+  }
+
+  .tab-last {
+    h5 {
+      padding-bottom: 5px;
+    }
+    p {
+      padding: 6px 0;
+    }
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -56,7 +95,7 @@
     a {
       font-size: 11.5px;
     }
-    cursor: poter;
+    cursor: pointer;
   }
   .tab-container li:not(:last-of-type) {
     margin-right: 2%;
@@ -128,6 +167,7 @@
   .content-container {
     margin-top: 30px;
   }
+
   #conBox {
     margin-bottom: 80px;
     display: flex;
@@ -138,6 +178,8 @@
 
   .tab-image {
     width: 700px;
+    padding-left: 50px;
+    padding-right: 10px;
     overflow: hidden;
   }
   .tab-image img {
@@ -151,14 +193,14 @@
     transform: scale(1.3);
     transition: 0.7s;
   }
+
   .tabText {
     h5 {
-      font-size: 20px;
+      font-size: 25px;
     }
     p {
-      font-size: 15px;
+      font-size: 17px !important;
     }
-
     padding: 40px;
     width: 500px;
   }
@@ -166,8 +208,12 @@
   .tab-container-item a {
     font-size: 15px !important;
   }
+
   .gallery-button {
     margin: 0 auto;
     width: 200px;
+    a {
+      padding: 10px;
+    }
   }
 }

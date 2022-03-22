@@ -34,7 +34,7 @@
             >
               <div id="conBox">
                 <div class="tab-image">
-                  <img src="@/assets/images/APOPO_Desktop MA 2.jpg" alt="" />
+                  <img src="@/assets/images/APOPO_Desktop-MA-2.png" alt="" />
                 </div>
                 <div class="tabText">
                   <h5>WE TRAIN ANIMALS TO SAVE LIVES</h5>
@@ -49,7 +49,7 @@
               <div id="conBox" style="flex-direction: row-reverse">
                 <div class="tab-image">
                   <img
-                    src="@/assets/images/APOPO_Desktop SAVE LIVES.jpg"
+                    src="@/assets/images/APOPO_Desktop-SAVE-LIVES.png"
                     alt=""
                   />
                 </div>
@@ -67,7 +67,7 @@
 
               <div id="conBox">
                 <div class="tab-image">
-                  <img src="@/assets/images/APOPO_Desktop TB 3.jpg" alt="" />
+                  <img src="@/assets/images/APOPO_Desktop-TB-3.png" alt="" />
                 </div>
                 <div class="tabText">
                   <h5>DETECTING TUBERCULOSIS</h5>
@@ -82,18 +82,134 @@
               </div>
             </article>
             <article v-if="article === 1" class="content-container-content">
-              <h1>Tab2</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facere, culpa!
-              </p>
+              <div id="conBox">
+                <div class="tab-image">
+                  <img src="@/assets/images/image_3.jpeg" alt="" />
+                </div>
+                <div class="tabText">
+                  <h5>
+                    APOPO provides a low-tech, cost-efficient solution to
+                    pressing humanitarian challenges
+                  </h5>
+                  <p>
+                    APOPO's innovative scent detection technology has a massive
+                    potential to relieve human suffering and promote development
+                    when deployed in the fight against tuberculosis and
+                    landmines, as well as other applications under development.
+                  </p>
+                </div>
+              </div>
+
+              <div id="conBox" style="flex-direction: row-reverse">
+                <div class="tab-image">
+                  <img src="@/assets/images/image_4.jpeg" alt="" />
+                </div>
+                <div class="tabText">
+                  <h5>DETECTING LANDMINES</h5>
+                  <p>
+                    APOPO became an independent mine action operator in
+                    Mozambique in 2007. We have since worked across the globe
+                    and currently carry out mine action operations in three
+                    countries
+                  </p>
+                </div>
+              </div>
+
+              <div id="conBox" class="tab-2">
+                <div class="tab-image">
+                  <img src="@/assets/images/image_2.png" alt="" />
+                </div>
+                <div class="tabText">
+                  <h5 style="margin-bottom: 0">DETECTING TUBERCULOSIS</h5>
+                  <p>
+                    APOPO’s tuberculosis detection HeroRATs begin learning to
+                    detect target scents at our training and research center in
+                    Morogoro, Tanzania, before being deployed at our
+                    TB-detection facilities.
+                  </p>
+                </div>
+              </div>
             </article>
             <article v-if="article === 2" class="content-container-content">
-              <h1>Tab3</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facere, culpa!
-              </p>
+              <div id="conBox">
+                <div class="tab-image">
+                  <img src="@/assets/images/image_5.jpeg" alt="" />
+                </div>
+                <div class="tabText">
+                  <p>
+                    When integrated into conventional methods, APOPO's detection
+                    animals speed up landmine and tuberculosis detection. They
+                    also demonstrate potential to help fight other global
+                    issues.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                id="conBox"
+                class="tab-3"
+                style="flex-direction: row-reverse"
+              >
+                <div class="tab-image">
+                  <img src="@/assets/images/image_6.jpeg" alt="" />
+                </div>
+                <div class="tabText tab-3">
+                  <h5>OUR MISSION</h5>
+                  <h6>QUALITY</h6>
+                  <p>
+                    Demonstrating and promoting high standards in research,
+                    design, training and implementation of scent detection
+                    animals’ technology.
+                  </p>
+                  <h6>INNOVATION</h6>
+                  <p>
+                    Pioneering creative research and innovative solutions within
+                    a participatory learning culture.
+                  </p>
+                  <h6>SOCIAL TRANSFORMATION</h6>
+                  <p>
+                    Developing skills, creating jobs, improving socio-economic
+                    and environmental conditions, releasing land for
+                    development, and combating public health issues.
+                  </p>
+                  <h6>DIVERSITY</h6>
+                  <p>
+                    Embracing diversity in all facets of the organization with
+                    respect to age, gender, religion, sexual orientation,
+                    physical abilities, nationality or ethnicity.
+                  </p>
+                  <h6>SOLIDARITY</h6>
+                  <p>
+                    APOPO commits itself to the common good and shares
+                    responsibility toward the protection of the people,
+                    communities and the planet.
+                  </p>
+                </div>
+              </div>
+
+              <div id="conBox">
+                <div class="tab-image">
+                  <img src="@/assets/images/image_7.png" alt="" />
+                </div>
+                <div class="tabText tab-last">
+                  <h5>STRATEGIC GOALS</h5>
+                  <p>
+                    APOPO saves lives through the deployment of scent detection
+                    animals:
+                  </p>
+                  <p>
+                    Deploying cost-efficient mine action solutions in affected
+                    countries
+                  </p>
+                  <p>
+                    Accelerate tuberculosis control in high burden countries
+                  </p>
+                  <p>
+                    Research and develop innovative applications for scent
+                    detection animals
+                  </p>
+                </div>
+              </div>
             </article>
           </section>
 

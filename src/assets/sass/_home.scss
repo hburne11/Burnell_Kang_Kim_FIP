@@ -106,8 +106,8 @@
 .button {
   display: flex;
   justify-content: center;
-  width: 220px;
-  height: 44px;
+  width: 200px;
+  height: 48px;
   border: 2.5px solid $orange-main-color;
   text-align: center;
   background-color: $orange-main-color;
@@ -128,8 +128,8 @@
 .button-done {
   display: flex;
   justify-content: center;
-  width: 220px;
-  height: 44px;
+  width: 200px;
+  height: 48px;
   border: 2.5px solid $brown-main-color;
   text-align: center;
   background-color: $brown-main-color;
@@ -160,11 +160,6 @@
 //   background-color: #fff1dd;
 //   transition: 0.3s;
 // }
-
-.button:hover {
-  background-color: $orange-main-color-hover;
-  transition: 0.3s;
-}
 
 .botton_flex {
   display: inline-flex;
@@ -227,7 +222,7 @@
       color: #888d6cd8;
     }
     h1 {
-      font-size: 50px;
+      font-size: 60px;
     }
     h6 {
       font-size: 15px;
@@ -252,6 +247,7 @@
   }
 
   .main_btn {
+    height: 100px;
     display: inline-flex;
     margin-top: 40px;
   }
@@ -261,43 +257,71 @@
   }
 
   .button {
-    padding: 12px 39px;
+    transition: 0.6s;
+    padding: 12px 42px;
     border: 2.5px solid $orange-main-color;
-    font-size: 16px;
+    font-size: 18px;
 
     background-color: $orange-main-color;
     color: $main-background-color;
     border-radius: 50px;
     font-weight: 400;
+    transition: 0.6s;
   }
 
-  .button-done {
+  .button:hover {
+    animation: motion 0.3s linear 0.2s infinite alternate;
     margin-top: 0;
-    margin-left: 10px;
+    -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
+    margin-top: 0;
+    margin-top: 0;
+    // background-color: #af9649;
+    transition: 0.6s;
   }
 
   .button_outline {
     padding: 12px 39px;
     border: 2.5px solid $orange-main-color;
     font-size: 16px;
-
     background-color: $main-background-color;
     color: $orange-main-color;
     border-radius: 50px;
     font-weight: 400;
   }
 
-  .donaBtn {
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-
-    background-color: $brown-main-color;
+  .button-done {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 10px;
   }
 
-  .donaBtn:hover {
-    background-color: #af9649;
-    transition: 0.3s;
+  .button-done:hover {
+    animation: motion 0.3s linear 0.2s infinite alternate;
+    margin-top: 0;
+    -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
+    margin-top: 0;
+    margin-top: 0;
+    // background-color: #af9649;
+    transition: 0.6s;
+  }
+
+  @keyframes motion {
+    from {
+      transform: translatey(0px);
+    }
+    to {
+      transform: translatey(-10px);
+    }
+  }
+
+  @-webkit-keyframes motion {
+    from {
+      transform: translatey(0px);
+    }
+    to {
+      transform: translatey(-20px);
+    }
   }
 
   .botton_flex {
@@ -348,7 +372,7 @@
   // }
 
   .social-wrapper {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .hovertext:before {
@@ -379,5 +403,15 @@
   .home_subtitle,
   .home_social {
     display: block;
+  }
+
+  .home_social img:hover {
+    animation: motion 0.3s linear 0.2s infinite alternate;
+    margin-top: 0;
+    -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
+    margin-top: 0;
+    margin-top: 0;
+    // background-color: #af9649;
+    transition: 0.6s;
   }
 }

@@ -11,7 +11,9 @@
             <router-link to="/CampaignView"> OUR CAMPAIGN </router-link>
             <router-link to="/AboutView">ABOUT US </router-link>
             <router-link to="/ContactView"> CONTACT US </router-link>
-            <button class="donationBtn">DONATE</button>
+            <button class="donationBtn">
+              <router-link to="/DonationView"> Donate</router-link>
+            </button>
           </div>
           <div class="menu">
             <router-link to="/"> HOME </router-link>
