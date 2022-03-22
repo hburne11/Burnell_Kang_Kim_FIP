@@ -50,27 +50,31 @@
         > -->
       </div>
 
-      <h2 class="home_subtitle">
-        Post your charity using the hashtag <br /><b>#ApopoSavesLives</b> and
-        tag us
-        <b>@APOPO</b>
-      </h2>
+      <div class="social-wrapper">
+        <h2 class="home_subtitle">
+          Post your charity using the hashtag <br /><b>#ApopoSavesLives</b> and
+          tag us
+          <b>@APOPO</b>
+        </h2>
 
-      <div class="home_social">
-        <a href="" class="home_social-icon">
-          <img
-            src="https://img.icons8.com/cute-clipart/38/000000/instagram-new.png"
-          />
-        </a>
-        <a href="" class="home_social-icon">
-          <img src="https://img.icons8.com/color-glass/38/000000/tiktok.png"
-        /></a>
-        <a href="" class="home_social-icon"
-          ><img src="https://img.icons8.com/fluency/38/000000/snapchat.png" />
-        </a>
-        <a href="" class="home_social-icon"
-          ><img src="https://img.icons8.com/color/38/000000/twitter--v1.png" />
-        </a>
+        <div class="home_social">
+          <a href="" class="home_social-icon">
+            <img
+              src="https://img.icons8.com/cute-clipart/38/000000/instagram-new.png"
+            />
+          </a>
+          <a href="" class="home_social-icon">
+            <img src="https://img.icons8.com/color-glass/38/000000/tiktok.png"
+          /></a>
+          <a href="" class="home_social-icon"
+            ><img src="https://img.icons8.com/fluency/38/000000/snapchat.png" />
+          </a>
+          <a href="" class="home_social-icon"
+            ><img
+              src="https://img.icons8.com/color/38/000000/twitter--v1.png"
+            />
+          </a>
+        </div>
       </div>
     </section>
   </main>

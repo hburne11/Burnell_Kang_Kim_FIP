@@ -24,7 +24,7 @@
   width: 100%;
   max-width: 300px;
   padding: 10px 5px;
-  border-bottom: 1.3px solid $blue-main-color;
+  border-bottom: 1.3px solid $green-main-color;
   font-size: 20px;
   color: $blue-main-color;
   font-weight: bold;
@@ -37,6 +37,7 @@
   margin-top: 30px;
   margin-left: 30px;
 }
+
 #nav img {
   width: 120px;
 }
@@ -48,7 +49,7 @@
   right: 0;
   z-index: 99;
   background: $main-background-color;
-  border-bottom: 0.6px solid $orange-main-color;
+  border-bottom: 1px solid #f0880063;
   width: 100%;
 }
 
@@ -58,13 +59,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 32px 15px 30px;
+  padding: 30px 20px 10px 20px;
 }
 
 .donationBtn {
   color: $main-background-color;
-  width: 110px;
-  height: 60px;
+  width: 100px;
+  height: 50px;
   background-color: $brown-main-color;
   border: none;
   border-radius: 50px;
@@ -160,18 +161,20 @@
     text-decoration: none;
     transition: 0.4s;
     padding: 6px 20px;
+    margin-right: 2px;
     color: $blue-main-color;
   }
 
   .donationBtn {
-    height: 50px;
+    height: 45px;
   }
 
-  .menu-wide a.is-active,
   .menu-wide a:hover {
     font-weight: bold;
   }
-  .menu-wide span:nth-child(5) {
-    background-color: aqua;
+
+  nav a.router-link-exact-active {
+    font-weight: bold;
+    color: $orange-main-color;
   }
 }

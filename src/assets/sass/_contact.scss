@@ -1,0 +1,16 @@
+.contactView {
+  height: 100vh;
+  background-color: $main-background-color;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1280px;
+}
+
+@media (min-width: 768px) {
+  .contactView {
+    background-color: $main-background-color;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1280px;
+  }
+}
