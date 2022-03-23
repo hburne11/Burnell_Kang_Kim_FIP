@@ -47,6 +47,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/MapView.vue"),
   },
+  {
+    path: "/DonationView",
+    name: "donationView",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/DonationView.vue"),
+  },
 ];
 
 const router = new VueRouter({
