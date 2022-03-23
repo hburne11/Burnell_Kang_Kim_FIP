@@ -26,7 +26,7 @@
         </p>
       </div>
       <div class="button campaign-btn">
-        <router-link to="/CampaignView"> Join us </router-link>
+        <router-link to="/MapView"> Join us </router-link>
       </div>
 
       <div class="map-warraper">
@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="btn-wide">
-        <router-link to="/RunningView" class="button-wide">
+        <router-link to="/MapView" class="button-wide">
           Get started
           <svg
             xmlns="http://www.w3.org/2000/svg"
