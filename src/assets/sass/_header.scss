@@ -186,4 +186,7 @@
     font-weight: bold;
     color: $orange-main-color;
   }
+  nav .donationBtn a.router-link-exact-active {
+    color: $main-background-color;
+  }
 }

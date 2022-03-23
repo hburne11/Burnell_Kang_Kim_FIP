@@ -6,7 +6,7 @@
     color: $blue-main-color;
     font-weight: bold;
   }
-  max-width: 800px;
+
   background-color: $main-background-color;
   padding: 40px 20px;
   width: 100%;
@@ -116,6 +116,28 @@
   .mapView {
     background-color: $main-background-color;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
+
+    height: 100vh;
+  }
+
+  .map-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    margin: 20px auto;
+  }
+  .data-wrapper,
+  .map-btn-set,
+  .map-btn-wide {
+    width: 600px;
+    margin: 20px auto;
+  }
+  .map-btn-set {
+    button {
+      width: 250px;
+    }
   }
 }
