@@ -5,13 +5,16 @@
 
 .home_rat_mobile {
   width: 300px;
+  padding-top: 5%;
 }
 
 .homeSection {
-  padding: 30px 20px 0 20px;
+  background-color: $main-background-color;
+  padding: 0 20px;
   margin: 0 auto;
   max-width: 1280px;
   display: block;
+  height: calc(100vh - 72.56px);
 }
 
 .home_img {
@@ -107,14 +110,14 @@
   display: flex;
   justify-content: center;
   width: 200px;
-  height: 48px;
-  border: 2.5px solid $orange-main-color;
+  height: 55px;
+
   text-align: center;
   background-color: $orange-main-color;
   color: $main-background-color;
   border-radius: 50px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .button a,
@@ -129,14 +132,13 @@
   display: flex;
   justify-content: center;
   width: 200px;
-  height: 48px;
-  border: 2.5px solid $brown-main-color;
-  text-align: center;
+  height: 55px;
+
   background-color: $brown-main-color;
   color: $main-background-color;
   border-radius: 50px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 13px;
 }
 // .button_outline {
@@ -177,10 +179,12 @@
 
 // media query
 
-@media (min-width: 800px) {
+@media (min-width: 1040px) {
   .homeSection {
-    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 40px;
     position: relative;
+    height: auto;
   }
 
   .home_img {
@@ -194,10 +198,10 @@
   }
 
   .home_rat {
-    z-index: 10;
     display: block;
     width: 570px;
-    margin-top: 30px;
+    padding-top: 20%;
+    overflow: hidden;
   }
 
   .home_social img {
@@ -257,26 +261,30 @@
   }
 
   .button {
-    transition: 0.6s;
+    transition: 250ms ease-in-out;
     padding: 12px 42px;
-    border: 2.5px solid $orange-main-color;
+
     font-size: 18px;
 
     background-color: $orange-main-color;
     color: $main-background-color;
     border-radius: 50px;
     font-weight: 400;
-    transition: 0.6s;
   }
 
+  // .button:hover {
+  //   animation: motion 0.3s linear 0.2s infinite alternate;
+  //   margin-top: 0;
+  //   -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
+  //   margin-top: 0;
+  //   margin-top: 0;
+  //   // background-color: #af9649;
+  //   transition: 0.6s;
+  // }
+
   .button:hover {
-    animation: motion 0.3s linear 0.2s infinite alternate;
-    margin-top: 0;
-    -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
-    margin-top: 0;
-    margin-top: 0;
-    // background-color: #af9649;
-    transition: 0.6s;
+    transform: translateY(-5px);
+    background-color: $orange-main-color-hover;
   }
 
   .button_outline {
@@ -287,9 +295,11 @@
     color: $orange-main-color;
     border-radius: 50px;
     font-weight: 400;
+    transition: 250ms ease-in-out;
   }
 
   .button-done {
+    transition: 250ms ease-in-out;
     font-weight: 400;
     font-size: 18px;
     margin-top: 0;
@@ -297,31 +307,8 @@
   }
 
   .button-done:hover {
-    animation: motion 0.3s linear 0.2s infinite alternate;
-    margin-top: 0;
-    -webkit-animation: motion 0.3s linear 0.2s infinite alternate;
-    margin-top: 0;
-    margin-top: 0;
-    // background-color: #af9649;
-    transition: 0.6s;
-  }
-
-  @keyframes motion {
-    from {
-      transform: translatey(0px);
-    }
-    to {
-      transform: translatey(-10px);
-    }
-  }
-
-  @-webkit-keyframes motion {
-    from {
-      transform: translatey(0px);
-    }
-    to {
-      transform: translatey(-20px);
-    }
+    transform: translateY(-5px);
+    background-color: $brown-main-color-hover;
   }
 
   .botton_flex {
@@ -329,7 +316,7 @@
   }
 
   .home_data {
-    padding-top: 70px;
+    padding-top: 100px;
     text-align: left;
     display: block;
     grid-column: 1/3;
@@ -411,6 +398,6 @@
     margin-top: 0;
     margin-top: 0;
     // background-color: #af9649;
-    transition: 0.6s;
+    transition: 250ms ease-in-out;
   }
 }

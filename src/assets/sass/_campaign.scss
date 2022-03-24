@@ -192,13 +192,13 @@ video.fullscreen {
       height: 55px;
     }
 
-    .button a:hover {
-      color: $main-background-color;
-    }
-
     .campaign-btn {
       margin-top: 30px;
       height: 55px;
+    }
+
+    .campaign-btn a:hover {
+      color: $main-background-color;
     }
 
     .mapText {
@@ -257,7 +257,7 @@ video.fullscreen {
       margin-top: 120px;
       width: 100%;
       .button-wide {
-        transition: 0.6s;
+        transition: 250ms ease-in-out;
         width: 400px;
         height: 60px;
         margin-bottom: 80px;
