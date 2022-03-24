@@ -24,10 +24,10 @@
         </h1>
         <div class="main_btn">
           <div class="button">
-            <router-link to="/CampaignView"> Join us </router-link>
+            <router-link to="/CampaignView"> Join Us </router-link>
           </div>
           <div class="button-done">
-            <router-link to="/DonationView"> Donate now </router-link>
+            <router-link to="/DonationView"> Donate Now </router-link>
           </div>
 
           <!-- <div class="button_outline">

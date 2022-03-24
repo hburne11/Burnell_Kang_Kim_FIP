@@ -7,7 +7,7 @@
   padding-top: 150px;
   display: block;
   z-index: -1;
-  transition: 0.5s;
+  transition: 250ms ease-in-out;
   background-color: #e2f0da;
 }
 .menu.is-active {
@@ -62,6 +62,11 @@
   padding: 30px 20px 10px 20px;
 }
 
+nav a.router-link-exact-active {
+  font-weight: bold;
+  color: $orange-main-color;
+}
+
 .donationBtn {
   color: $main-background-color;
   width: 100px;
@@ -70,12 +75,11 @@
   border: none;
   border-radius: 50px;
   margin-left: 20px;
-  transition: 0.6s;
+  transition: 250ms ease-in-out;
 }
 
 .donationBtn:hover {
-  background-color: #af964a;
-  transition: 0.6s;
+  background-color: $brown-main-color-hover;
 }
 
 .hamburger {
@@ -159,7 +163,7 @@
     font-size: 1rem;
     text-decoration-line: none;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 250ms ease-in-out;
     padding: 6px 20px;
     margin-right: 2px;
     color: $blue-main-color;
@@ -170,7 +174,7 @@
   }
 
   .donationBtn a:hover {
-    color: $main-background-color;
+    color: $main-background-color !important;
   }
 
   .menu-wide .donationBtn {
@@ -179,7 +183,7 @@
   }
 
   .menu-wide a:hover {
-    font-weight: bold;
+    color: $orange-main-color;
   }
 
   nav a.router-link-exact-active {

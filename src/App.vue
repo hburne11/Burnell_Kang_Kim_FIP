@@ -12,7 +12,7 @@
             <router-link to="/AboutView">ABOUT US </router-link>
             <router-link to="/ContactView"> CONTACT US </router-link>
             <button class="donationBtn">
-              <router-link to="/DonationView"> Donate</router-link>
+              <router-link to="/DonationView"> DONATE</router-link>
             </button>
           </div>
           <div class="menu">

@@ -5,9 +5,10 @@ $main-background-hover: #faffd65d;
 $blue-main-color: #1a4e77;
 $blue-main-color-hover: #1a4f77af;
 $orange-main-color: #f08900;
-$orange-main-color-hover: #f08000;
+$orange-main-color-hover: #f08800a6;
 $green-main-color: #b8d9c0;
 $brown-main-color: #bfa65a;
+$brown-main-color-hover: #bfa65acc;
 
 $title-font: "Luckiest Guy", cursive;
 $body-font: "roboto, sans-serif";
@@ -32,6 +33,7 @@ $body-font: "roboto, sans-serif";
 
 .main {
   position: relative;
+  background-color: $main-background-color;
 }
 ::-webkit-scrollbar {
   display: none;

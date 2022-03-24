@@ -214,9 +214,10 @@
               </div>
             </article>
           </section>
-
           <div class="gallery-button">
-            <router-link to="/GalleryView"> View Gallery </router-link>
+            <div class="button">
+              <router-link to="/GalleryView"> View Gallery </router-link>
+            </div>
           </div>
         </div>
       </div>
