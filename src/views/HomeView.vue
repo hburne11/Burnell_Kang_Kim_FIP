@@ -2,9 +2,9 @@
   <main class="main">
     <section class="homeSection">
       <div class="home_img">
-        <img src="@/assets/images/main_image.png" class="home_rat" />
+        <img src="@/assets/images/main_runningrat.gif" class="home_rat" />
         <img
-          src="@/assets/images/main_image_logo.png"
+          src="@/assets/images/main_runningrat.gif"
           class="home_rat_mobile"
         />
       </div>
@@ -52,7 +52,9 @@
 
       <div class="social-wrapper">
         <h2 class="home_subtitle">
-          Post your charity using the hashtag <br />#ApopoSavesLives and tag us
+          Post your charity using the hashtag <br /><strong
+            >#ApopoSavesLives and tag us</strong
+          >
           <b>@APOPO</b>
         </h2>
 
