@@ -77,7 +77,9 @@ video.fullscreen {
   width: 100%;
   max-width: 500px;
   height: 360px;
-  background-color: gray;
+  background: url("@/assets/images/running-map.gif");
+  background-position: center;
+  background-size: cover;
   margin-bottom: 12px;
   border-radius: 18px;
   display: flex;
@@ -85,6 +87,19 @@ video.fullscreen {
   align-items: center;
 }
 
+.mapImage-2 {
+  width: 100%;
+  max-width: 500px;
+  height: 360px;
+  background: url("@/assets/images/running-dona.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .imageTwo {
   padding-top: 20px;
 }
@@ -101,7 +116,7 @@ video.fullscreen {
   width: 100%;
   font-weight: bolder;
   padding: 5px;
-  border-bottom: 2px solid $orange-main-color;
+
   color: $orange-main-color;
 }
 
@@ -228,6 +243,17 @@ video.fullscreen {
       align-items: center;
     }
 
+    .mapImage-2 {
+      max-width: 600px;
+      height: 600px;
+      background-color: gray;
+      margin-bottom: 12px;
+      border-radius: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .imageOne,
     .imageTwo {
       display: flex;
@@ -267,8 +293,7 @@ video.fullscreen {
     }
 
     .button-wide:hover {
-      letter-spacing: 3px;
-      font-size: 32px;
+      transform: translateX(10px);
     }
   }
 

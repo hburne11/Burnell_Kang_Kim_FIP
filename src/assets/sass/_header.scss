@@ -17,6 +17,7 @@
   display: none;
 }
 .menu a {
+  font-family: $body-font;
   text-decoration: none;
   margin: 0 0 25px 35px;
   display: block;
@@ -31,8 +32,9 @@
 }
 
 .menu button {
+  font-family: $body-font;
   font-size: 20px;
-  width: 180px;
+  width: 150px;
   font-weight: bold;
   margin-top: 30px;
   margin-left: 30px;
@@ -127,6 +129,26 @@ nav a.router-link-exact-active {
 
 .hamburger.is-active:hover span {
   background-color: $orange-main-color;
+}
+
+.hamburger-dona {
+  padding: 0;
+  margin-left: 0 !important;
+}
+
+.hamburger-dona a:hover {
+  color: $main-background-color;
+}
+.hamburger-dona a {
+  padding: 16px 27px;
+  border-radius: 100px;
+  text-align: center;
+  color: $main-background-color;
+  background-color: $brown-main-color;
+}
+
+.hamburger-dona a.router-link-exact-active {
+  color: $main-background-color;
 }
 
 @media (min-width: 863px) {

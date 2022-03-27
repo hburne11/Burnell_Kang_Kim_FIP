@@ -1,7 +1,7 @@
 <template>
   <main class="main-gallery">
-    <div class="gallery-wrapper">
-      <h1>ABOUT US</h1>
+    <div class="gallery">
+      <h1>GALLERY</h1>
       <div class="image-wrapper">
         <img
           class="rats-image"

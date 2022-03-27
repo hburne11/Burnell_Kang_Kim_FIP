@@ -31,7 +31,7 @@
 
       <div class="map-warraper">
         <div class="imageOne">
-          <div class="mapImage">Image1</div>
+          <div class="mapImage"></div>
           <div class="mapText">
             <p>
               When you run the app,
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="imageOne" style="margin-top: 40px">
-          <div class="mapImage">Image2</div>
+          <div class="mapImage-2"></div>
           <div class="mapText">
             <p>
               You can also donate directly <br />and check total donations and

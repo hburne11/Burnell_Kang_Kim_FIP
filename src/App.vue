@@ -10,7 +10,7 @@
             <router-link to="/"> HOME </router-link>
             <router-link to="/CampaignView"> OUR CAMPAIGN </router-link>
             <router-link to="/AboutView">ABOUT US </router-link>
-            <router-link to="/ContactView"> CONTACT US </router-link>
+            <router-link to="/GalleryView"> GALLERY </router-link>
             <button class="donationBtn">
               <router-link to="/DonationView"> DONATE</router-link>
             </button>
@@ -19,8 +19,10 @@
             <router-link to="/"> HOME </router-link>
             <router-link to="/CampaignView"> OUR CAMPAIGN </router-link>
             <router-link to="/AboutView">ABOUT US </router-link>
-            <router-link to="/ContactView"> CONTACT US </router-link>
-            <button class="donationBtn">DONATE</button>
+            <router-link to="/GalleryView"> GALLERY </router-link>
+            <button class="hamburger-dona">
+              <router-link to="/DonationView"> DONATE</router-link>
+            </button>
           </div>
 
           <button class="hamburger">

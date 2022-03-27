@@ -1,0 +1,104 @@
+.main-donation {
+  text-align: center;
+  background-color: $main-background-color;
+  padding: 60px 20px;
+  justify-content: center;
+  align-items: center;
+
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.donation-total {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.money-raised,
+.participants,
+.my-donation {
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: $brown-main-color;
+  }
+  p {
+    font-size: 11px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dona-text {
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: $blue-main-color;
+  }
+}
+
+.price-btn {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  color: $blue-main-color;
+  font-weight: bold;
+  border: 1.5px solid lightgray;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+.price-btn:hover {
+  background-color: rgba(211, 211, 211, 0.322);
+}
+
+.price p {
+  color: $blue-main-color;
+  padding: 15px 0;
+}
+
+.my-price {
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  padding: 15px;
+  color: $blue-main-color;
+  background-color: #c9cad138;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 7px;
+}
+
+.my-price:hover {
+  background-color: rgba(211, 211, 211, 0.418);
+}
+
+.continue-btn {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  color: $main-background-color;
+  font-weight: bold;
+  background-color: $brown-main-color;
+  border-radius: 50px;
+}
+
+.price input:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .price {
+    margin: 0 auto;
+    width: 34vw;
+  }
+
+  .continue-btn {
+    width: 15vw;
+  }
+}
