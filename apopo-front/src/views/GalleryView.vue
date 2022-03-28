@@ -2,58 +2,49 @@
   <main class="main-gallery">
     <div class="gallery">
       <h1>GALLERY</h1>
-      <div class="image-wrapper">
-        <img
-          class="rats-image"
+        <div class="image-wrapper">
+        <GalleryImg
           v-for="photo in photos"
           :key="photo.id"
-          :src="photo.url"
-        />
-      </div>
+          :imgsrc="photo.gallery_img"
+        ></GalleryImg>
+        </div>
     </div>
   </main>
 </template>
-
+ 
 <script>
+import GalleryImg from "@/components/GalleryImg.vue";
 export default {
   name: "galleryView",
 
+  created() {
+    fetch('/galleryapi')
+        .then(res => res.json())
+        .then(data => { 
+            console.log(data);
+            this.photos = data[0];
+        })
+      .catch(err => console.error(err));
+  },
+
+
   data() {
     return {
-      photos: [
-        {
-          id: 1,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-        {
-          id: 2,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-        {
-          id: 3,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-        {
-          id: 4,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-        {
-          id: 5,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-        {
-          id: 6,
-          url: "https://media.4-paws.org/d/c/0/5/dc05b2a3e1a001ed34e00179aefc9067763a546e/VIER%20PFOTEN_2020-06-15_007-4000x2769-1920x1329.jpg",
-        },
-      ],
+      photos: []
     };
   },
+
   // methods: {
   //   async getImages() {
   //     const res = await axios.get("server address");
   //     this.photos = res.data
   //   },
   // },
+
+  components: {
+    GalleryImg
+  }
 };
 </script>
 

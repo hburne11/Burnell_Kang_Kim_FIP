@@ -14,9 +14,9 @@ This is an IDP Winter 2022 NGO Campaign Final Integrated Project created by Hayd
 Find Netify live site [here](https://apopongocampaign.netlify.app/)
 
 ### Local server
-Dowonload this project or `git clone` to your server directory.
-To open the project on your local environment, you should install and run WAMP/MAMP. 
-Import database file db_apopo_fip.sql to your phpMyAdmin, change the database credentials in APOPO-BACK/config.js according to your system.
+Dowonload this project or `git clone` to your server directory.  
+To open the project on your local environment, you should install and run WAMP/MAMP.  
+Import database file db_apopo_fip.sql to your phpMyAdmin, change the database credentials in APOPO-BACK/config.js according to your system.  
 To set up npm package, use command `npm install` in *both* APOPO-BACK and apopo-front folder.
 * Back end server: `cd` to APOPO-BACK, run command `npm run start` or `node app` in your terminal, then the back end will run at localhost:3000 .
 * Front end server: `cd` to apopo-front, run command `npm run serve` or `vue-cli-service serve` in your terminal, then open browser and go to localhost:8080 and you will see the app page.
