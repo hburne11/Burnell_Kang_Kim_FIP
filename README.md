@@ -9,6 +9,19 @@ In this app, we create Charity Run Campaign for [APOPO](https://www.apopo.org/en
 This is an IDP Winter 2022 NGO Campaign Final Integrated Project created by Hayden Burnell, Yan Kang, and Yeonju Kim
 
 
+## Usage
+### Live site 
+Find Netify live site [here](https://apopongocampaign.netlify.app/)
+
+### Local server
+Dowonload this project or `git clone` to your server directory.
+To open the project on your local environment, you should install and run WAMP/MAMP. 
+Import database file db_apopo_fip.sql to your phpMyAdmin, change the database credentials in APOPO-BACK/config.js according to your system.
+To set up npm package, use command `npm install` in *both* APOPO-BACK and apopo-front folder.
+* Back end server: `cd` to APOPO-BACK, run command `npm run start` or `node app` in your terminal, then the back end will run at localhost:3000 .
+* Front end server: `cd` to apopo-front, run command `npm run serve` or `vue-cli-service serve` in your terminal, then open browser and go to localhost:8080 and you will see the app page.
+
+
 ## Roles
 
 * [Hayden Burnell](https://github.com/hburne11) - Front-end dev & motion designer
@@ -16,8 +29,8 @@ This is an IDP Winter 2022 NGO Campaign Final Integrated Project created by Hayd
 * [Yeonju Kim](https://github.com/YeonjuKim05) - Graphic designer and front-end dev
 
 ## TO DO list
-
-* folder structure comfirmation - includes folder goes to which parent folder
+* show iamges on gallery page
+* add data to database on news subscription page
 
 ## License
 
@@ -43,28 +56,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-------------
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
