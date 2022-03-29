@@ -1,0 +1,41 @@
+.hidden {
+    display: none;
+}
+
+.newsletterView {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    margin: 0 5vw;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-family: $title-font;
+        font-size: 16px;
+        font-weight: bold;
+        color: $blue-main-color;
+        padding-bottom: 18px;
+      }
+
+    h2 {
+        font-family: $body-font;
+        font-weight: bold;
+        color: $blue-main-color;
+    }
+
+      label, p {
+        font-family: $body-font;
+        font-weight: bold;
+        margin-top: 17px;
+        font-size: 15px;
+        color: $blue-main-color;
+      }
+}
+
+#subscribeSubmit {
+    margin-top: 5vh;
+}
+
+#submitMessage {
+    margin-top: 5vh;
+}

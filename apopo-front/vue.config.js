@@ -1,4 +1,5 @@
-
+const BASE_URL = "http://localhost:3000";
+const UMS_PATH = "/newsletter";
 // API endpoint
 const API_URL = "http://localhost/Burnell_Kang_Kim_FIP/database/api/index.php";
 
@@ -14,16 +15,16 @@ module.exports = {
   
   devServer: {
     proxy: {
-    //   '/users': {
-    //     target: `${BASE_URL + UMS_PATH}`,
-    //     changeOrigin: true,
-    //     pathRewrite: { '^/users': ''}
-    //   },
+      '/newsletter': {
+        target: `${BASE_URL + UMS_PATH}`,
+        changeOrigin: true,
+        pathRewrite: { '^/newsletter': ''}
+      },
 
-      '/galleryapi': {
+      '/gallery-api': {
         target: `${API_URL}`,
         changeOrigin: true,
-        pathRewrite: { '^/galleryapi': ''}
+        pathRewrite: { '^/gallery-api': ''}
       }
       
     }

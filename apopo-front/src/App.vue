@@ -46,9 +46,9 @@
               </p>
               <h3>Sign up to our newsletter</h3>
             </div>
-            <div class="newsBtn">
-              <router-link to="/"> Sign up </router-link>
-            </div>
+            <button class="newsBtn">
+              <router-link to="/NewsletterView"> Sign up </router-link>
+            </button>
             <p class="copy">© Apopo. All rights reserved.</p>
           </div>
         </footer>

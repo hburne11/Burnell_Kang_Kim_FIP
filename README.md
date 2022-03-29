@@ -29,8 +29,8 @@ To set up npm package, use command `npm install` in *both* APOPO-BACK and apopo-
 * [Yeonju Kim](https://github.com/YeonjuKim05) - Graphic designer and front-end dev
 
 ## TO DO list
-* show iamges on gallery page
-* add data to database on news subscription page
+* Adding style on NewsletterView page
+* After submitting newsletter data, the functions followed cannot work
 
 ## License
 
