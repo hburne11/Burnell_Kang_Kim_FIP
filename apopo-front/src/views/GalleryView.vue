@@ -19,7 +19,7 @@ export default {
   name: "galleryView",
 
   created() {
-    fetch('/galleryapi')
+    fetch('/gallery-api')
         .then(res => res.json())
         .then(data => { 
             console.log(data);

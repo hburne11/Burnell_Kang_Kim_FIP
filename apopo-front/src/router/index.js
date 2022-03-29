@@ -43,6 +43,12 @@ const routes = [
 
     component: () => import("../views/DonationView.vue"),
   },
+  {
+    path: "/NewsletterView",
+    name: "newsletterView",
+
+    component: () => import("../views/NewsletterView.vue"),
+  },
 ];
 
 

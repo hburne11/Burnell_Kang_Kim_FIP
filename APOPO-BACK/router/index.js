@@ -21,7 +21,26 @@ let pool = sql.createPool({
     port : 3306 // mac:8889, windows: 3306
 })
 
+// ============== NEWSLETTER SIGNUP ==============
+router.post('/', (req, res) => {
+    console.log('hit sign up route');
 
+    let user = req.body;
+
+    pool.getConnection((err, connection) => {
+        if (err) throw err;
+
+        let query = `INSERT INTO newsletter(member_name, member_email) VALUES('${user.membername}', '${user.memberemail}')`;
+
+        connection.query(query, (err, result) => {
+            connection.release();
+
+            if (err) throw err;
+
+            console.log(result);
+        })
+    })
+});
 
 
 
