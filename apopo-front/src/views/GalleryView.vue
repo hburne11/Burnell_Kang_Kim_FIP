@@ -1,37 +1,36 @@
 <template>
   <main class="main-gallery">
+    <h1>GALLERY</h1>
     <div class="gallery">
-      <h1>GALLERY</h1>
-        <div class="image-wrapper">
+      <div class="image-wrapper">
         <GalleryImg
           v-for="photo in photos"
           :key="photo.id"
           :imgsrc="photo.gallery_img"
         ></GalleryImg>
-        </div>
+      </div>
     </div>
   </main>
 </template>
- 
+
 <script>
 import GalleryImg from "@/components/GalleryImg.vue";
 export default {
   name: "galleryView",
 
   created() {
-    fetch('/gallery-api')
-        .then(res => res.json())
-        .then(data => { 
-            console.log(data);
-            this.photos = data[0];
-        })
-      .catch(err => console.error(err));
+    fetch("/gallery-api")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        this.photos = data[0];
+      })
+      .catch((err) => console.error(err));
   },
-
 
   data() {
     return {
-      photos: []
+      photos: [],
     };
   },
 
@@ -43,8 +42,8 @@ export default {
   // },
 
   components: {
-    GalleryImg
-  }
+    GalleryImg,
+  },
 };
 </script>
 
