@@ -1,7 +1,7 @@
 <template>
   <main class="main-gallery">
+    <h1>GALLERY</h1>
     <div class="gallery">
-      <h1>GALLERY</h1>
       <div class="image-wrapper">
         <GalleryImg
           v-for="photo in photos"
