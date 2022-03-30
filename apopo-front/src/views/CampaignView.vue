@@ -14,7 +14,7 @@
       </div>
     </div>
     <section class="campaign">
-      <div class="textCon">
+      <div data-aos="fade-up" class="textCon">
         <div class="span">
           <span>#APOPO 2020</span>
           <span>#FROMZEROTOHERO</span>
@@ -32,7 +32,7 @@
       <div class="map-warraper">
         <div class="imageOne">
           <div class="mapImage"></div>
-          <div class="mapText">
+          <div data-aos="fade-down" data-aos-once="false" class="mapText">
             <p>
               When you run the app,
               <br />
@@ -44,7 +44,7 @@
         </div>
         <div class="imageOne" style="margin-top: 40px">
           <div class="mapImage-2"></div>
-          <div class="mapText">
+          <div data-aos="fade-down" data-aos-once="false" class="mapText">
             <p>
               You can also donate directly <br />and check total donations and
               participants.

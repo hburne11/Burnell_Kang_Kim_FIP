@@ -1,7 +1,7 @@
 <template>
   <main class="main">
     <section class="homeSection">
-      <div class="home_img">
+      <div data-aos="fade-left" data-aos-delay="200" class="home_img">
         <img src="@/assets/images/main_runningrat.gif" class="home_rat" />
         <img
           src="@/assets/images/main_runningrat.gif"
@@ -10,19 +10,21 @@
       </div>
 
       <div class="home_data">
-        <div class="span" style="margin-bottom: 10px">
-          <span>#APOPO 2020</span>
-          <span>#FROMZEROTOHERO</span>
+        <div data-aos="fade-up">
+          <div class="span" style="margin-bottom: 10px">
+            <span>#APOPO 2020</span>
+            <span>#FROMZEROTOHERO</span>
+          </div>
+          <h1 class="home_title_2">Charity 5K run</h1>
+          <h1 class="home_title">
+            Everyone<br />
+            who opposes the war <br />can participate.
+          </h1>
+          <h1 class="home_title_mobile">
+            EVERYONE WHO OPPOSES THE WAR <br />CAN PARTICIPATE.
+          </h1>
         </div>
-        <h1 class="home_title_2">Charity 5K run</h1>
-        <h1 class="home_title">
-          Everyone<br />
-          who opposes the war <br />can participate.
-        </h1>
-        <h1 class="home_title_mobile">
-          EVERYONE WHO OPPOSES THE WAR <br />CAN PARTICIPATE.
-        </h1>
-        <div class="main_btn">
+        <div data-aos="fade-up" data-aos-delay="200" class="main_btn">
           <div class="button">
             <router-link to="/CampaignView"> Join Us </router-link>
           </div>

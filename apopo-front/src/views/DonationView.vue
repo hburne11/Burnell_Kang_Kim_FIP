@@ -1,6 +1,6 @@
 <template>
   <div class="main-donation">
-    <div class="donation-total">
+    <div data-aos="fade-up" class="donation-total">
       <div class="money-raised">
         <p>Total Money Raised</p>
         <h1>0.3K</h1>
@@ -16,28 +16,29 @@
         <h1>${{ price }}</h1>
       </div>
     </div>
+    <div data-aos="fade-up" data-aos-delay="200">
+      <div class="dona-text">
+        <h1>How much wanna donate?</h1>
+      </div>
+      <div class="price">
+        <button @click="fifty" class="price-btn">$50</button>
+        <button @click="hundred" class="price-btn">$100</button>
+        <button @click="hundredf" class="price-btn">$150</button>
 
-    <div class="dona-text">
-      <h1>How much wanna donate?</h1>
-    </div>
-    <div class="price">
-      <button @click="fifty" class="price-btn">$50</button>
-      <button @click="hundred" class="price-btn">$100</button>
-      <button @click="hundredf" class="price-btn">$150</button>
+        <p>or</p>
+        <form>
+          <input
+            type="text"
+            v-model="price"
+            placeholder="Your price"
+            class="my-price"
+          /><br />
 
-      <p>or</p>
-      <form>
-        <input
-          type="text"
-          v-model="price"
-          placeholder="Your price"
-          class="my-price"
-        /><br />
-
-        <button class="continue-btn" type="submit" id="enterprice">
-          Continue
-        </button>
-      </form>
+          <button class="continue-btn" type="submit" id="enterprice">
+            Continue
+          </button>
+        </form>
+      </div>
     </div>
   </div>
 </template>
