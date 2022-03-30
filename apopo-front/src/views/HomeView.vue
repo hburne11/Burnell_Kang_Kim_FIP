@@ -26,30 +26,12 @@
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="main_btn">
           <div class="button">
-            <router-link to="/CampaignView"> Join Us </router-link>
+            <router-link to="/CampaignView"> Learn More </router-link>
           </div>
-          <div class="button-done">
-            <router-link to="/DonationView"> Donate Now </router-link>
+          <div class="button-run">
+            <router-link to="/MapView"> Let's Run </router-link>
           </div>
-
-          <!-- <div class="button_outline">
-            <router-link to="/CampaignView"> About Us </router-link>
-          </div> -->
         </div>
-
-        <!-- <router-link to="/DonationView">
-          <div class="dona-wrapper">
-            <div class="donation_link">
-              <span
-                class="hovertext"
-                data-hover="Support our hero animals and
-            people suffering from the war."
-              >
-                <p>DONATE NOW</p>
-              </span>
-            </div>
-          </div></router-link
-        > -->
       </div>
 
       <div class="social-wrapper">

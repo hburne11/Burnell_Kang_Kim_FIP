@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-    <div class="newsletterView">
-      <h1>Get the lastest news from APOPO!</h1>
+    <div data-aos="fade-up" class="newsletterView">
+      <h1>Get the lastest news <br />from APOPO!</h1>
       <h2>
         We will push weekly newsletter through email to get in touch with you.
       </h2>
