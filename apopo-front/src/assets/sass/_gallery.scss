@@ -8,17 +8,17 @@
     color: $blue-main-color;
     padding-bottom: 18px;
   }
-  max-width: 1280px;
-  height: auto;
-  width: 100%;
-  padding: 60px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $main-background-color;
-  margin: 0 auto;
 }
 
 .gallery {
   width: 100%;
-  padding: 10px 0;
+  max-width: 1280px;
+  padding: 40px 20px;
 }
 
 .image-wrapper {
@@ -36,7 +36,14 @@
 }
 
 @media (min-width: 768px) {
+  .gallery {
+    padding: 40px 20px;
+  }
+  .main-gallery {
+    background-color: $main-background-color;
+  }
   .image-wrapper {
+    max-width: 1240px;
     grid-template-columns: repeat(auto-fill, minmax(20rem, auto));
     img {
       width: 100%;

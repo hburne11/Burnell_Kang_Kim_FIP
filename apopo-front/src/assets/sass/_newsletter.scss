@@ -13,16 +13,16 @@
     margin: 0;
     padding: 0;
     font-family: $title-font;
-    font-size: 28px;
+    font-size: 35px;
     color: $blue-main-color;
     padding-bottom: 18px;
   }
 
   h2 {
     font-family: $body-font;
-    font-size: 12px;
+    font-size: 13px;
     color: $blue-main-color;
-    width: 230px;
+    width: 250px;
   }
 
   label,
@@ -136,5 +136,15 @@
     top: 10%;
     right: 5%;
     transform: translate(-5%, -10%);
+  }
+
+  .newsletterView {
+    h1 {
+      font-size: 75px;
+    }
+    h2 {
+      font-size: 16px;
+      width: 290px;
+    }
   }
 }

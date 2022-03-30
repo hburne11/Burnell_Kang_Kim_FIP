@@ -86,7 +86,7 @@
               </div>
             </article>
             <article v-if="article === 1" class="content-container-content">
-              <div id="conBox">
+              <div data-aos="fade-right" id="conBox">
                 <div class="tab-image">
                   <img src="@/assets/images/image_3.jpeg" alt="" />
                 </div>
@@ -104,7 +104,11 @@
                 </div>
               </div>
 
-              <div id="conBox" style="flex-direction: row-reverse">
+              <div
+                data-aos="fade-left"
+                id="conBox"
+                style="flex-direction: row-reverse"
+              >
                 <div class="tab-image">
                   <img src="@/assets/images/image_4.jpeg" alt="" />
                 </div>
@@ -119,7 +123,7 @@
                 </div>
               </div>
 
-              <div id="conBox" class="tab-2">
+              <div data-aos="fade-right" id="conBox" class="tab-2">
                 <div class="tab-image">
                   <img src="@/assets/images/image_2.png" alt="" />
                 </div>
@@ -135,7 +139,7 @@
               </div>
             </article>
             <article v-if="article === 2" class="content-container-content">
-              <div id="conBox">
+              <div data-aos="fade-right" id="conBox">
                 <div class="tab-image">
                   <img src="@/assets/images/image_5.jpeg" alt="" />
                 </div>
@@ -150,6 +154,7 @@
               </div>
 
               <div
+                data-aos="fade-left"
                 id="conBox"
                 class="tab-3"
                 style="flex-direction: row-reverse"
@@ -193,7 +198,7 @@
                 </div>
               </div>
 
-              <div id="conBox">
+              <div data-aos="fade-right" id="conBox">
                 <div class="tab-image">
                   <img src="@/assets/images/image_7.png" alt="" />
                 </div>
