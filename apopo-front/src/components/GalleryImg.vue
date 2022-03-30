@@ -1,15 +1,19 @@
 <template>
-    <div>
-        <img :src="require('@/assets/images/' + imgsrc)" alt="gallery image" class="rats-image">
-    </div>
+  <div data-aos="fade-up">
+    <img
+      :src="require('@/assets/images/' + imgsrc)"
+      alt="gallery image"
+      class="rats-image"
+    />
+  </div>
 </template>
 
 <script>
 export default {
-    name: "TheGalleryImg",
+  name: "TheGalleryImg",
 
-    props: {
-        imgsrc: String
-    }
-}
+  props: {
+    imgsrc: String,
+  },
+};
 </script>

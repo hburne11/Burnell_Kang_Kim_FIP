@@ -70,6 +70,12 @@ export default {
         memberemail: this.memberemail,
       };
 
+      if (!this.membername) {
+        alert("Please type your name");
+        this.$refs.membername.focus();
+        return;
+      }
+
       fetch("newsletter", {
         method: "POST",
         headers: {

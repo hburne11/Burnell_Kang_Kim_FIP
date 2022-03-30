@@ -32,7 +32,7 @@
               v-if="article === 0"
               class="content-container-content target"
             >
-              <div id="conBox">
+              <div data-aos="fade-right" id="conBox">
                 <div class="tab-image">
                   <img src="@/assets/images/APOPO_Desktop-MA-2.png" alt="" />
                 </div>
@@ -46,7 +46,11 @@
                 </div>
               </div>
 
-              <div id="conBox" style="flex-direction: row-reverse">
+              <div
+                data-aos="fade-left"
+                id="conBox"
+                style="flex-direction: row-reverse"
+              >
                 <div class="tab-image">
                   <img
                     src="@/assets/images/APOPO_Desktop-SAVE-LIVES.png"
@@ -65,7 +69,7 @@
                 </div>
               </div>
 
-              <div id="conBox">
+              <div data-aos="fade-right" id="conBox">
                 <div class="tab-image">
                   <img src="@/assets/images/APOPO_Desktop-TB-3.png" alt="" />
                 </div>
