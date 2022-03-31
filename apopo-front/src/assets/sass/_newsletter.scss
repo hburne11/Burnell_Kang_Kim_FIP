@@ -19,7 +19,7 @@
   }
 
   h2 {
-    font-family: $body-font;
+    font-family: roboto, Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: $blue-main-color;
     width: 250px;
@@ -27,7 +27,7 @@
 
   label,
   p {
-    font-family: $body-font;
+    font-family: roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-top: 10px;
     font-size: 15px;
@@ -122,14 +122,32 @@
 }
 
 @media (min-width: 768px) {
+
+  .newsletterView {
+    h1 {
+      font-size: 75px;
+    }
+    h2 {
+      font-size: 22px;
+      line-height: 28px;
+      width: 290px;
+    }
+  } 
+
   .newsletterForm {
     .hidden {
       display: none;
     }
   }
+
   .newsletterView button {
     width: 200px;
   }
+
+  .thanku-md {
+    max-width: 400px;
+  }
+
   .thanku-md .close-btn {
     width: 10px;
     position: absolute;
@@ -138,13 +156,9 @@
     transform: translate(-5%, -10%);
   }
 
-  .newsletterView {
-    h1 {
-      font-size: 75px;
-    }
-    h2 {
-      font-size: 16px;
-      width: 290px;
-    }
+  .thanku-wrapper p {
+    margin-left: -5vw;
   }
+
+
 }
