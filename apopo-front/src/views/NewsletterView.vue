@@ -32,10 +32,6 @@
           Submit
         </button>
 
-        <!-- <p v-if="submitMessage" id="submitMessage">
-          Thank you for subscription! Redirecting...
-        </p> -->
-
         <div class="thanku-md" v-if="modal == true">
           <button class="close-btn" @click="modal = false">
             <img
